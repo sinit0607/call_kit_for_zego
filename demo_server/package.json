@@ -1,0 +1,20 @@
+{
+  "name": "rtc-call-kit-demo-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Demo signaling server for testing call_kit_for_zego end to end",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test_flow.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "socket.io-client": "^4.7.5"
+  }
+}

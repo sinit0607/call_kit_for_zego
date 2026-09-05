@@ -1,0 +1,16 @@
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.idea/
+*.iml
+# A library must not pin its consumers' versions, so the package's lock is
+# ignored — but the example is an app, and without its lock it re-resolves to
+# whatever is newest and breaks (see example/pubspec.lock).
+/pubspec.lock
+node_modules/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore

@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - zego_express_engine (3.25.0):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - zego_express_engine (from `.symlinks/plugins/zego_express_engine/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  zego_express_engine:
+    :path: ".symlinks/plugins/zego_express_engine/ios"
+
+SPEC CHECKSUMS:
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  zego_express_engine: d9138a65a37632c86b6aa8a5fd83ce6ca3c3a649
+
+PODFILE CHECKSUM: 3c63482e143d1b91d2d2560aee9fb04ecc74ac7e
+
+COCOAPODS: 1.16.2

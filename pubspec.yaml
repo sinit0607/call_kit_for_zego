@@ -1,0 +1,53 @@
+name: call_kit_for_zego
+description: >-
+  Real-time audio/video calling for Flutter, powered by ZEGOCLOUD, with native
+  CallKit and Android ConnectionService incoming-call UI. Includes a demo
+  signaling server.
+version: 1.0.0
+homepage: https://github.com/sinit0607/call_kit_for_zego
+repository: https://github.com/sinit0607/call_kit_for_zego
+issue_tracker: https://github.com/sinit0607/call_kit_for_zego/issues
+
+topics:
+  - zegocloud
+  - calling
+  - callkit
+  - video-call
+  - voip
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Real-time communication
+  zego_express_engine: ^3.24.0
+
+  # Native incoming call UI
+  flutter_callkit_incoming: ^3.1.5
+
+  # Network monitoring
+  connectivity_plus: ^7.1.1
+
+  # UUID generation
+  uuid: ^4.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  mockito: ^5.4.4
+  build_runner: ^2.4.8
+
+# This is a pure Dart package that delegates native functionality to:
+# - flutter_callkit_incoming (native call UI)
+# - zego_express_engine (RTC media)
+# No native code required in this package.
+
+# Platforms supported
+platforms:
+  android:
+  ios:
